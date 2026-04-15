@@ -1,0 +1,18 @@
+version: 1
+upload:
+  - source: canonical/litmus-rocks
+    commit: 2d1b7a733557d093c04ffac6853f38f04d45fc0d
+    directory: litmuschaos-exporter/3.26.0
+    release:
+      3-24.04:
+        end-of-life: '2026-07-10T00:00:00Z'
+        risks:
+          - edge
+      3.26-24.04:
+        end-of-life: '2026-07-10T00:00:00Z'
+        risks:
+          - edge
+      3.26.0-24.04:
+        end-of-life: '2026-04-11T00:00:00Z'
+        risks:
+          - edge
