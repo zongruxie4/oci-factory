@@ -43,6 +43,9 @@ description: |
   Usage: java [options] <mainclass> [args...]
   ...
   ```
+  Note: The official OpenJDK 25 JRE image includes java.compiler and
+  jdk.compiler modules. Therefore, the chiseled image can run .java files.
+
 docker:
   parameters:
     - --rm
